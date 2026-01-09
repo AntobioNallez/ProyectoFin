@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour
         experiencia -= jugadorNiveles[nivelActual - 1];
         nivelActual++;
         UIController.Instance.ActualizarExp();
-        //UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
+        // UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
 
         armasMejorables.Clear();
 

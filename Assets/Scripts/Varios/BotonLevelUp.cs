@@ -19,7 +19,7 @@ public class LevelUpButton : MonoBehaviour
         }
         else
         {
-            weaponName.text = "NEW " + weapon.name;
+            weaponName.text = "NUEVO " + weapon.name;
             weaponDescription.text = weapon.basicDescription;
         }
 

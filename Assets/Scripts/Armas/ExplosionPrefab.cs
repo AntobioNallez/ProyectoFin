@@ -10,6 +10,7 @@ public class ExplosionPrefab : MonoBehaviour
         weapon = GameObject.Find("Explosion").GetComponent<Explosion>();
         duration = weapon.stats[weapon.weaponLevel].duration;
         AudioController.Instance.ReproducirSonido(AudioController.Instance.directionalWeaponSpawn);
+        transform.SetParent(null);
     }
 
     void Update()
